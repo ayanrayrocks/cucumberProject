@@ -14,6 +14,7 @@ Scenario Outline: User Login ScenarioSecond
          Then user enter "<username>" and "<password>"
          And user clicks on Login button
          When user navigate to user profile Page
+         When user navigate to user profile Teto
          
 Examples: 
     | username | password |
