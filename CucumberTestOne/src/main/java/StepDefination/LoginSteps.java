@@ -23,6 +23,13 @@ public class LoginSteps {
 		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
+		System.out.println("a");
+		System.out.println("b");
+		System.out.println("c");
+		System.out.println("d");
+		System.out.println("e");
+		System.out.println("f");
+		System.out.println("g");
 	}
    
 	@When("^Applcation Page Title is is Free CRM$")
